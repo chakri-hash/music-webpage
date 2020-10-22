@@ -22,7 +22,8 @@ ul li a{
     font-weight: bold;
     font-size: 20px;
     font-family: cursive;
-    margin-left: 60px;
+    margin-left: 35px;
+    
 }
 ul li a:hover{
     background-color:rgb(252, 248, 248);
@@ -41,6 +42,8 @@ ul li.active a{
 h3{
     color: white;
     font-family: cursive;
+    font-size: 25px;
+    margin-left: 5px;
 }
 .im{
     display: flex;
@@ -50,6 +53,7 @@ h3{
 .im > img{
     margin: 7px 8.2px;
     transition: transform 0.5s;
+
 }
 .im > img:hover{
     transform: scale(1.1);
@@ -111,6 +115,7 @@ h4{
 }
 img{
     border-radius: 10px;
+
 }
 .logo{
     display: flex;
@@ -121,4 +126,7 @@ header{
 }
 .icon{
     cursor: pointer;
+}
+ul{
+    margin-left: 200px;
 }
